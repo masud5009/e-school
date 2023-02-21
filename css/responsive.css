@@ -1,0 +1,12 @@
+@media (max-width:360px) {
+    header{
+        height: 11.6rem;
+    }
+    
+}
+
+@media (min-width:992px) {
+    header{
+        height: 24.3rem;
+    }
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    height: 60vh;
+    background: green;
+  }
+  .carousel {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
