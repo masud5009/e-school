@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+    --text-color: #2c3e50;
+    --font-size: 1.2rem;
+    --p-font: 1rem
+}
 header {
     position: relative;
   }
@@ -11,4 +15,13 @@ header {
     position: relative;
     height: 100%;
     overflow: hidden;
+  }
+
+  .offcanvas_menu a{
+    color: var(--text-color);
+    padding: var(--p-font);
+    font-size: var(--font-size);
+  }
+  .offcanvas_menu i{
+    margin-right: .5rem;
   }
