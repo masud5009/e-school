@@ -19,7 +19,7 @@
 <body>
 
     <!-- start:header-section -->
-    <div class="container">
+    <div class="container-fluid">
         <header>
             <!--slider-->
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -55,10 +55,14 @@
             </div>
             <!-- /slider -->
             <!-- navbar -->
+            <div class="head-news container-fluid">
+                <h2>News :</h2>
+                <marquee behavior="1" direction="">This is a website</marquee>
+            </div>
             <nav class="navbar">
                 <a href="" class="navbar-brand">School-Name</a>
-                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                    aria-controls="offcanvasRight"><span class="navbar-toggler-icon"></span></button>
+                <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><i class="fas fa-list"></i></button>
             </nav>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                 aria-labelledby="offcanvasRightLabel">
@@ -83,7 +87,50 @@
         </header>
     </div>
     <!-- end:header-section -->
-
+    <!--content-->
+    <div class="content-page container mt-5">
+        <!--notice board-->
+        <div class="notice-board mb-5">
+            <div class="card">
+                <div class="card-header">Latest Notice</div>
+                <div class="card-body">
+                    <!--first text-->
+                    <marquee behavior="scroll"  direction="up">
+                    <div class="body-text mb-2">
+                        <div class="date">Published: Apr -03</div>
+                        <div class="notice-text">
+                            <a href="">
+                                This site is develope
+                            </a>
+                        </div>
+                    </div>
+                
+                    <!--scond text-->
+                    <div class="body-text">
+                        <div class="date">Published: Apr -03</div>
+                        <div class="notice-text">
+                            <a href="">
+                                This site is develope
+                            </a>
+                        </div>
+                    </div>
+                </marquee>
+                </div>
+            </div>
+        </div>
+        <!--/notie board-->
+        <div class="princeple-info">
+            <div class="card">
+                <div class="card-body">
+                    <div class="profile">
+                        <img src="image/profile.jpg" alt="">
+                    </div>
+                    <h4>Principal name</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /content -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
